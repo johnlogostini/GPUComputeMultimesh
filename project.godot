@@ -1,0 +1,33 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="GPUComputeMultimesh3D"
+run/main_scene="uid://cbjd2oxvv2x6a"
+config/features=PackedStringArray("4.6", "Forward Plus")
+config/icon="res://icon.svg"
+
+[display]
+
+window/hdr/request_hdr_output=true
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/renderdoc_launcher/plugin.cfg", "res://addons/sk_fly_camera/plugin.cfg")
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+viewport/hdr_2d=true

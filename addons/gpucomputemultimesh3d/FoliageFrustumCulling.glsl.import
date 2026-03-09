@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://dotvv5emv7af8"
+path="res://.godot/imported/FoliageFrustumCulling.glsl-4c2d9bab6d68148fce7956ab5c47e546.res"
+
+[deps]
+
+source_file="res://addons/gpucomputemultimesh3d/FoliageFrustumCulling.glsl"
+dest_files=["res://.godot/imported/FoliageFrustumCulling.glsl-4c2d9bab6d68148fce7956ab5c47e546.res"]
+
+[params]
+
